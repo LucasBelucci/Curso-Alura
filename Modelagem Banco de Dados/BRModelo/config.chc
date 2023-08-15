@@ -1,0 +1,16 @@
+#Config
+#Fri Apr 28 15:04:48 BRT 2023
+cfg.ancorador=true
+cfg.autosalvarintervalo=5
+cfg.mostrargrade=true
+cfg.apagartextoaoeditar=true
+cfg.location.y=-9
+cfg.location.x=-9
+cfg.mostrardimensoesaomover=true
+cfg.gradelargura=23
+cfg.mostrartooltips=true
+cfg.tipodefault=0
+cfg.mostrarids=false
+cfg.recentes=C\:\\Curso Alura\\Modelagem Banco de Dados\\Curso1_L\u00F3gico.brM3;C\:\\Curso Alura\\Modelagem Banco de Dados\\Curso1.brM3;C\:\\Curso Alura\\Modelagem Banco de Dados\\BRModelo\\build.xml
+cfg.location.salvar=true
+cfg.propaguedeletetolines=true
