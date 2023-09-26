@@ -1,0 +1,26 @@
+#!/bin/bash
+
+
+# Teste GET: Obter a lista de tarefas
+echo "Teste GET: Obter a lista de tarefas"
+curl -X GET http://127.0.0.1:5000/tasks
+
+pause
+
+echo "Iniciando teste GET..."
+curl -X GET http://localhost:5000/tasks
+echo "Fim do teste GET."
+
+# Teste POST: Criar uma nova tarefa
+#echo "Teste POST: Criar uma nova tarefa"
+#curl -X POST -H "Content-Type: application/json" -d '{"title":"Minha primeira tarefa"}' http://localhost:5000/tasks
+
+# Teste PUT: Atualizar uma tarefa existente (substitua TASK_ID pelo ID da tarefa real)
+#echo "Teste PUT: Atualizar uma tarefa existente"
+#curl -X PUT -H "Content-Type: application/json" -d '{"title":"Tarefa atualizada"}' http://localhost:5000/tasks/TASK_ID
+
+# Teste DELETE: Excluir uma tarefa (substitua TASK_ID pelo ID da tarefa real)
+#echo "Teste DELETE: Excluir uma tarefa"
+#curl -X DELETE http://127.0.0.1:5000/tasks/TASK_ID
+
+Read-Host -Prompt
